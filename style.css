@@ -6,13 +6,14 @@
 .topnav a {
     float: center;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Advent Pro', sans-serif;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     color: #4654a0;
+    text-transform: uppercase;
 }
 
 /* Change the color of links on hover */
@@ -27,14 +28,47 @@
 }
 
 
-.house {
-    width: 400px;
+main {
+    margin:10em auto;
+    width: 300px;
+    height: 30vh;
+    text-align: center;
 }
 
-.svg-container {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
+#dak:hover {
+    color: black;
 }
+   
+
+
+footer {
+  max-width: 320px;
+  margin: auto;
+  text-align: center;
+}
+
+footer p {
+  line-height: 7px;
+  font-family: 'Advent Pro', sans-serif;
+  color: #4654a0;
+}
+
+@keyframes opstijgen
+    {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+    }
+
+ @-webkit-keyframes opstijgen /* Safari and Chrome - necessary duplicate */
+    {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+    }
+
 
